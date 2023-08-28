@@ -1,0 +1,93 @@
+.diplayFlex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #fff;
+    color: rgb(37, 150, 190);
+    border-radius: 10px;
+}
+
+.diplayNone{
+    display: none;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.entete{
+    background-color: #fff;
+}
+.logo{
+    width: 90px;
+}
+
+.navbar-toggler{
+    font-size: 30px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+}
+
+.form-control, .input-group-text{
+    border-radius: 15px;
+    background-color: rgba(222, 241, 248, 0.699);
+}
+
+.sidebar{
+    font-size: 18px;
+    background-color: rgb(37, 150, 190);
+}
+.nav-link:hover{
+    color: #fff;
+}
+.nav-link i{
+    font-size: 25px;
+    padding: 10px;
+}
+
+.nav-link {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-item .Active{
+    color: rgb(37, 150, 190);
+    background-color: #fff
+}
+
+
+
+.residence, .mariage{
+    margin-left: 5px;
+}
+
+.mariage, .deces{
+    margin-left: 20px;
+}
+
+.naissance{
+    margin-left: 25px;
+}
+
+/* .texte2, .texte3, .texte4, .texte5, .texte6{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+} */
+
+.footer{
+    background-color: rgb(37, 150, 190);
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+    
+
+}

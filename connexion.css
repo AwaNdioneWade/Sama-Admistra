@@ -1,0 +1,31 @@
+body{
+    background-image: url(mairie44.jpeg);
+    background-size: cover;
+}
+
+.contact{
+    background-color: #fff;
+    height: 400px;
+}
+
+.submit input{
+    background-color: rgb(37, 150, 190);
+    color: #fff;
+    border-color: rgb(37, 150, 190);
+}
+
+@media (max-width:767px) {   
+    body{
+        background-image: none;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+    .contact{
+        height: 450px;
+    }
+    
+}

@@ -1,0 +1,9 @@
+
+.contact input::placeholder, .contact textarea::placeholder{
+    color: rgb(37, 150, 190);
+}
+
+.contact label{
+    color: #eeba2b;
+}
+
